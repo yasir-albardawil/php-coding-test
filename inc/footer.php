@@ -90,7 +90,6 @@
         });
     });
     $('#bulkEdit').on('click', function () { // bulk checked
-        console.log('dssd');
         var status = this.checked;
         $(".editRow").each(function () {
             $(this).prop("checked", status);

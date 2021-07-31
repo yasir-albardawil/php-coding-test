@@ -585,7 +585,7 @@ class Users
 
     }
 
-    public function bulk_update_roles($ids, $roleid)
+    public function bulkUpdateRoles($ids, $roleid)
     {
         foreach ($ids as $id) {
             $sql = "UPDATE tbl_users SET

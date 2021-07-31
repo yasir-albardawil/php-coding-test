@@ -59,7 +59,7 @@ if (isset($_GET["code"])) {
                 $_SESSION['access_token'] = $token['access_token'];
 
                 Session::set('id', $res->id);
-                Session::set('roleid', 3);
+                Session::set('roleid', $res->roleid);
                 Session::set('name', $res->name);
                 Session::set('username', $res->username);
                 Session::set('email', $res->email);
