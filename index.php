@@ -93,7 +93,7 @@ if (isset($username)) {
                         } ?>
                     >
 
-                        <td><?php if (Session::get('roleid') == 1 && Session::get('roleid') !== $value->roleid) echo "<input type='checkbox'  class='editRow' value='" . $value->id . "'  />" ?></td>
+                        <td><?php if (Session::get('roleid') == 1 && Session::get('id') !== $value->id) echo "<input type='checkbox'  class='editRow' value='" . $value->id . "'  />" ?></td>
                         <td><?php echo $i; ?></td>
                         <td><?php echo $value->name; ?></td>
                         <td><?php echo $value->username; ?> <br>
