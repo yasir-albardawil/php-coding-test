@@ -10,4 +10,4 @@
 
 ### Start local server
 
-php -S localhost:8000 php-coding-test/ 
+php -S localhost:8000 -t ../php-coding-test/
